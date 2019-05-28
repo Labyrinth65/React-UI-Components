@@ -1,1 +1,18 @@
 /* All styles for your header Components live here */
+.headerContainer {
+	display: flex;
+	flex-flow: row;
+}
+
+.logo {
+	padding: 1%;
+}
+
+.logoContainer {
+	height: 40%;
+}
+
+.logoImg {
+	width: auto;
+	max-height: 100%;
+}
