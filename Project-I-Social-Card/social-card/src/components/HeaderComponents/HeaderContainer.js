@@ -10,7 +10,7 @@ function HeaderContainer() {
 			<div className="logo">
 				<ImageThumbnail />
 			</div>
-			<div>
+			<div className="headerText">
 				<HeaderTitle />
 				<HeaderContent />
 			</div>

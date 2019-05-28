@@ -2,17 +2,42 @@
 .headerContainer {
 	display: flex;
 	flex-flow: row;
+	padding-bottom: 1%;
 }
 
 .logo {
 	padding: 1%;
+	height: 80px;
 }
 
 .logoContainer {
-	height: 40%;
+	height: 60%;
 }
 
 .logoImg {
 	width: auto;
 	max-height: 100%;
+}
+
+.headerText {
+	padding: 1%;
+}
+
+.headerTitle {
+	display: flex;
+	padding-bottom: 1%;
+}
+
+.headerTitleLeft {
+	font-weight: 700;
+	padding-right: 1%;
+}
+
+.headerTitleRight {
+	color: grey;
+	font-size: 0.9rem;
+}
+
+.headerContent {
+	font-size: 0.8rem;
 }
