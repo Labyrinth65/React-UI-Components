@@ -18,7 +18,7 @@ import CardContent from "./CardContent";
 
 class CardContainer extends React.Component {
 	handleClick() {
-		window.location.href = "https://www.reactjs.org";
+		window.location.href = "https://reactjs.org";
 	}
 
 	render() {
