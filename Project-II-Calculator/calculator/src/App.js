@@ -17,18 +17,18 @@ class App extends React.Component {
 			button === "+" ||
 			button === "-"
 		) {
-			this.setState(state => ({ result: state.result + button }));
+			this.setState(state => ({ result: `${state.result}${button}` }));
 		} else if (button === "0") {
 			if (this.state.result === "0") {
 				this.setState(state => ({ result: button }));
 			} else {
-				this.setState(state => ({ result: state.result + button }));
+				this.setState(state => ({ result: `${state.result}${button}` }));
 			}
 		} else {
 			if (this.state.result === "0") {
 				this.setState(state => ({ result: button }));
 			} else {
-				this.setState(state => ({ result: state.result + button }));
+				this.setState(state => ({ result: `${state.result}${button}` }));
 			}
 		}
 	};
