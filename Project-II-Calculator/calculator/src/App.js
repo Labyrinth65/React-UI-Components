@@ -36,6 +36,7 @@ class App extends React.Component {
 	calculate = () => {
 		try {
 			this.setState({
+				// Both 'eval' and 'new Function' are bad practice, do not use except for small projects like this
 				// result: (eval(this.state.result) || "0") + ""
 				result: (new Function("return " + this.state.result)() || "0") + ""
 			});
