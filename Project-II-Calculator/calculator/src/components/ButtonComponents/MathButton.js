@@ -1,10 +1,10 @@
 import React from "react";
 import "./Button.css";
 
-const ActionButton = props => {
+const MathButton = props => {
 	return (
 		<button
-			onClick={e => props.onClickFunction(props.text)}
+			onClick={e => props.onClickFunction(props.name)}
 			className={props.buttonStyle}
 		>
 			{props.text}
@@ -12,4 +12,4 @@ const ActionButton = props => {
 	);
 };
 
-export default ActionButton;
+export default MathButton;

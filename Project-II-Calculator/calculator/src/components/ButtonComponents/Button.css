@@ -1,0 +1,51 @@
+.calculatorBottom {
+	display: flex;
+}
+
+.calculatorLeft {
+	display: flex;
+	flex-flow: column wrap;
+	width: 75%;
+	border: 1px solid gray;
+}
+
+.clear {
+	font-size: 2.5rem;
+	border: 1px solid gray;
+	height: 20%;
+	background: white;
+}
+
+.numbersOneToNine {
+	height: 60%;
+}
+
+.number {
+	font-size: 2.5rem;
+	font-weight: 700;
+	width: 33.3333%;
+	height: 33.3333%;
+	background: white;
+}
+
+.zero {
+	font-size: 2.5rem;
+	font-weight: 700;
+	border: 1px solid gray;
+	height: 20%;
+	background: white;
+}
+
+.calculatorRight {
+	display: flex;
+	flex-flow: column wrap;
+	width: 25%;
+	border: 1px solid gray;
+}
+
+.math {
+	font-size: 3rem;
+	height: 20%;
+	background: darkred;
+	color: white;
+}

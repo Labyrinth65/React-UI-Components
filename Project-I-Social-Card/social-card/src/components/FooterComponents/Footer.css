@@ -1,0 +1,20 @@
+/* All styles for your Footer Components live here */
+footer {
+	padding: 4% 45% 2% 10%;
+	border-bottom: 1px solid gray;
+	display: flex;
+	justify-content: space-between;
+	color: grey;
+}
+
+footer icon {
+	display: flex;
+}
+
+.comment {
+	transform: scaleX(-1);
+}
+
+.footerNumber {
+	padding-left: 35%;
+}

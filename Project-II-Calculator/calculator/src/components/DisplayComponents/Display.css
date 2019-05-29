@@ -1,0 +1,12 @@
+.display {
+	color: white;
+	background: black;
+	font-size: 4rem;
+	border: 1px solid gray;
+	text-align: right;
+	padding: 5%;
+}
+
+.display p {
+	margin: 0;
+}

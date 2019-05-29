@@ -1,1 +1,42 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+	max-width: 90%;
+	margin-left: 10%;
+	border: 1px solid gray;
+	border-radius: 2%;
+}
+
+.banner {
+}
+
+/* .cardBanner {
+	max-width: 100%;
+} */
+
+.bannerImg {
+	max-width: 100%;
+	height: auto;
+	border-radius: 2% 2% 0 0;
+}
+
+.cardContent {
+	padding-left: 2%;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.firstLine {
+	font-weight: 700;
+	padding: 1% 0;
+}
+
+.secondLine {
+	font-size: 0.9rem;
+	padding-bottom: 1%;
+}
+
+.lastLine {
+	color: grey;
+	font-size: 0.8rem;
+	padding-bottom: 2%;
+}
