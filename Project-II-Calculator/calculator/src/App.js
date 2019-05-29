@@ -36,7 +36,8 @@ class App extends React.Component {
 	calculate = () => {
 		try {
 			this.setState({
-				result: (eval(this.state.result) || "0") + ""
+				// result: (eval(this.state.result) || "0") + ""
+				result: (new Function("return " + this.state.result)() || "0") + ""
 			});
 		} catch (e) {
 			this.setState({
